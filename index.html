@@ -1,17 +1,203 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        
-      <title>HTML Tagları</title>
-<!--Burada Temel yapı başlar-->
-<h1>HTML Tagları</h1>
-<strong>Merhaba burada en çok kullanılan temel HTML taglarını listeledim umarım yardımcı olur.</strong>
-<hr>
-<h2>Temel Yapılar</h2>
-<dl>mama</dl>
-<dt>mama123</dt>
+  <head>
+    <title>HTML Tagları</title>
+  </head>
+  <body>
+    
+    <h1>HTML Tagları</h1>
+    <strong>Merhaba burada en çok kullanılan temel HTML taglarını listeledim, umarım yardımcı olur.</strong>
 
+    <p>HTML'in yapısını bakacak olursak tüm yapı &lt;etiket&gt; yazı &lt;/etiket&gt; şeklindedir.</p>
+    <hr>
 
+    <!-- Temel Yapılar -->
+    <h1>Temel Yapılar</h1>
+    <h2>&lt;!DOCTYPE html&gt;</h2>
+    <p>Tarayıcıya sayfanın HTML5 yapısında olduğunu söyler.</p>
 
+    <h2>&lt;html&gt;</h2>
+    <p>Tüm HTML sayfasını kapsayan ana etikettir.</p>
 
-    </body>
+    <h2>&lt;head&gt;</h2>
+    <p>Sayfa hakkındaki bilgi, meta verileri, başlık ve stil içerir.</p>
+
+    <h2>&lt;body&gt;</h2>
+    <p>Sayfanın görünen içeriğini barındırır.</p>
+
+    <hr>
+
+    <!-- Başlık ve Metin Etiketleri -->
+    <h1>Başlık ve Metin Etiketleri</h1>
+
+    <h2>&lt;h1.../h6&gt;</h2>
+    <p>Başlık etiketleridir. h1 en büyük, h6 en küçük olmak üzere 6 etiket bulunur.</p>
+
+    <h2>&lt;p&gt;</h2>
+    <p>Paragraf etiketidir. Metinleri paragraflara ayırmak için kullanılır.</p>
+
+    <h2>&lt;br&gt;</h2>
+    <p>Satır sonu, alt satıra geçiş işine yarar.</p>
+
+    <h2>&lt;hr&gt;</h2>
+    <p>Yatay çizgi (ayırıcı) oluşturur.</p>
+
+    <h2>&lt;b&gt;</h2>
+    <p>Kalın metin yazmayı sağlar. Örnek: <b>Bold metin örneği</b></p>
+
+    <h2>&lt;strong&gt;</h2>
+    <p>Önemli metin oluşturur. Örnek: <strong>Şematik olarak daha büyük gözükür</strong></p>
+
+    <h2>&lt;i&gt;</h2>
+    <p>Eğik (italic) metin yazar. Örnek: <i>Eğik metin</i></p>
+
+    <h2>&lt;em&gt;</h2>
+    <p>Vurgulu metin. Örnek: <em>Vurgulu metin</em></p>
+
+    <h2>&lt;mark&gt;</h2>
+    <p>Metni fosforlu renk ile vurgular. Örnek: <mark>Vurgulanmış metin</mark></p>
+
+    <h2>&lt;small&gt;</h2>
+    <p>Küçük puntolu metin yazmaya olanak sağlar. Örnek: <small>Small metin</small></p>
+
+    <h2>&lt;del&gt;</h2>
+    <p>Üstü çizili metin oluşturur. Örnek: <del>Silinmiş metin</del></p>
+
+    <h2>&lt;ins&gt;</h2>
+    <p>Altı çizili metin oluşturur. Örnek: <ins>Eklenmiş metin</ins></p>
+
+    <h2>&lt;sub&gt;</h2>
+    <p>Formüllerde kullanılan alt simge oluşturmayı sağlar. Örnek: H<sub>2</sub>O</p>
+
+    <h2>&lt;sup&gt;</h2>
+    <p>Formüllerde kullanılan üst simge oluşturmayı sağlar. Örnek: x<sup>2</sup></p>
+
+    <hr>
+
+    <!-- Bağlantı ve Medya Etiketleri -->
+    <h1>Bağlantı ve Medya Etiketleri</h1>
+
+    <h2>&lt;a&gt;</h2>
+    <p>Bağlantı (link) eklemek için kullanılır. Örnek: <a href="https://www.google.com">Google</a></p>
+
+    <h2>&lt;img&gt;</h2>
+    <p>Görsel ekler. alt metni görsel yüklenmezse görünür. Örnek: <img src="resim.jpg" alt="Örnek Resim" width="150"></p>
+
+    <h2>&lt;audio&gt;</h2>
+    <p>Ses dosyası ekler.</p>
+
+    <h2>&lt;video&gt;</h2>
+    <p>Video dosyası ekler.</p>
+
+    <h2>&lt;source&gt;</h2>
+    <p>Medya dosyalarının kaynağını belirtir.</p>
+
+    <h2>&lt;track&gt;</h2>
+    <p>Altyazı dosyası ekler (videolarda).</p>
+
+    <h2>&lt;iframe&gt;</h2>
+    <p>Başka bir sayfayı içine gömer. Örnek: <iframe src="https://www.example.com" width="200" height="100"></iframe></p>
+
+    <hr>
+
+    <!-- Liste Etiketleri -->
+    <h1>Liste Etiketleri</h1>
+
+    <h2>&lt;ul&gt;</h2>
+    <p>Sırasız (madde işaretli) liste oluşturur. Örnek:
+      <ul>
+        <li>Elma</li>
+        <li>Armut</li>
+        <li>Muz</li>
+      </ul>
+    </p>
+
+    <h2>&lt;ol&gt;</h2>
+    <p>Sıralı (numaralı) liste oluşturur. Örnek:
+      <ol>
+        <li>Birinci</li>
+        <li>İkinci</li>
+        <li>Üçüncü</li>
+      </ol>
+    </p>
+
+    <h2>&lt;li&gt;</h2>
+    <p>Liste öğesi ekler. Yukarıdaki örneklerde gösterilmiştir.</p>
+
+    <h2>&lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;</h2>
+    <p>Tanım listesi ve açıklaması oluşturur. Örnek:
+      <dl>
+        <dt>HTML</dt>
+        <dd>Web sayfası oluşturma dili</dd>
+      </dl>
+    </p>
+
+    <hr>
+
+    <!-- Tablo Etiketleri -->
+    <h1>Tablo Etiketleri</h1>
+
+    <h2>&lt;table&gt;</h2>
+    <p>Tablo oluşturur. Örnek:
+      <table border="1">
+        <caption>Örnek Tablo</caption>
+        <tr>
+          <th>Ad</th>
+          <th>Yaş</th>
+        </tr>
+        <tr>
+          <td>Ali</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Ayşe</td>
+          <td>22</td>
+        </tr>
+      </table>
+    </p>
+
+    <h2>&lt;tr&gt;, &lt;td&gt;, &lt;th&gt;</h2>
+    <p>Tablo satırları, hücreleri ve başlık hücreleri oluşturur. Yukarıdaki örnek tabloda gösterilmiştir.</p>
+
+    <h2>&lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;</h2>
+    <p>Tablonun baş, gövde ve alt kısmını tanımlar.</p>
+
+    <h2>&lt;caption&gt;</h2>
+    <p>Tablo başlığı ekler. Örnek tabloda gösterilmiştir.</p>
+
+    <hr>
+
+    <!-- Form Etiketleri -->
+    <h1>Form Etiketleri</h1>
+
+    <h2>&lt;form&gt;</h2>
+    <p>Form alanını başlatır. Örnek:
+      <form>
+        <label>İsim: <input type="text"></label>
+        <button>Gönder</button>
+      </form>
+    </p>
+
+    <h2>&lt;textarea&gt;</h2>
+    <p>Çok satırlı metin alanı oluşturur. Örnek:
+      <textarea rows="3" cols="20">Buraya yazı yazabilirsiniz.</textarea>
+    </p>
+
+    <h2>&lt;select&gt; ve &lt;option&gt;</h2>
+    <p>Açılır liste ve seçenekleri oluşturur. Örnek:
+      <select>
+        <option>Seçenek 1</option>
+        <option>Seçenek 2</option>
+      </select>
+    </p>
+
+    <h2>&lt;fieldset&gt; ve &lt;legend&gt;</h2>
+    <p>Formda gruplandırma ve başlık ekler. Örnek:
+      <fieldset>
+        <legend>Kişisel Bilgiler</legend>
+        <label>Ad: <input type="text"></label>
+      </fieldset>
+    </p>
+
+  </body>
 </html>
